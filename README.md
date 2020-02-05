@@ -12,7 +12,7 @@
 1. add the below code to routes(web.php)
 
 2. ```php
-   Route::get('r', function() {
+   Route::get('/laravel-routes-to-csv', function() {
    	header('Content-Type: application/excel');
    	header('Content-Disposition: attachment; filename="routes.csv"');
    
@@ -28,6 +28,25 @@
    });
    ```
    
-3.	original source https://www.terrymatula.com/development/2014/laravel-routes-generating-a-csv/
+3. run php artisan serve
+
+4. go to http://127.0.0.1:8000/laravel-routes-to-csv
+
+5. original source https://www.terrymatula.com/development/2014/laravel-routes-generating-a-csv/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
